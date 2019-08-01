@@ -1,8 +1,196 @@
 <html>
-	<head>
-		<title>Web</title>
-	</head>
-	<body>
-		<h1>hello</h1>
-	</body>
+<body>
+
+<head>
+<title>
+ MY FIRST BLOG
+</title>
+</head>
+
+<!--this is a comment line which won't be visible in our web page-->
+<--this is a comment line which won't be visible in our web page-->
+
+<h1> TOPIC 1 </h1>
+Hi.&nbspHere we are going to learn how to create our own blog.
+
+<h1>TOPIC 2</h1>
+<p>Also we'll learn how to use html to create our blog.
+<br>Here we'll be taught to create text boxes , &nbsp&nbsp&nbspinsert pictures and etc. </p>
+
+<h2>UNORDERED LIST</h2>
+<ul>
+<li>video</li>
+<li>song</li>
+<li>movie</li>
+</ul>
+
+<h2>ORDERED LIST</h2>
+<ol>
+<li>video</li>
+<li>song</li>
+<li>movie</li>
+</ol>
+
+<h2>DIDN'T CLOSE h2 TAG<h2>
+<p>I didn't close the h2 tag but even then it is working.</p>
+
+<h2>AFTER CLOSING h2 TAG</h2>
+<p>Now I've closed the h2 tag. </p>
+
+<h2>AFTER CLOSING H2 TAG</h2>
+<p>Now I've closed the h2(H2) tag. </p>
+<!--the commands are not case sensitive.Upper case or Lower case the commands work-->
+
+<table>
+<h3>CREATING TABLE</h3>
+<tr>
+ <th>SERIAL NO</th>&nbsp&nbsp&nbsp<td></td>
+ <!--when we use &nbsp it is not working for table command.-->
+ <th>CAR NAME</th><td></td>
+ <th>COMP NAME</th>
+</tr>
+<tr>
+ <td>1</td><td></td>
+ <td>santro</td><td></td>
+ <td>hyundai</td>
+</tr>
+<tr>
+ <td>2</td><td></td>
+ <td>creta</td><td></td>
+ <td>hyundai</td>
+</tr>
+<tr>
+ <td>3</td><td></td>
+ <td>baleno</td><td></td>
+ <td>maruti suzuki</td>
+</tr>
+</table>
+
+<h3>ADDING LINK</h3>
+Please clink on the link:
+<a href="http://www.knowafest.com">
+ Knowafest</a>
+
+<h2>CREATING LINKS WITHIN THE SAME PAGE</H2>
+<ul>
+ Click on the links to get details.
+ <li> <a href=#Cars > Cars</a> </li>
+ <li> <a href=#Bikes >Bikes </a> </li>
+ <li> <a href=#Books > Books</a> </li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><a name=#Cars><h4>Information about cars</h4>A car is a road vehicle used to carry passengers (people). 
+Cars usually have four wheels(round things which turn in order to lead to movement), and an engine or motor to make them move. A large amount of cars were made during the 20th century.
+</a>
+
+<h6>Car Image</h6><img src="car.jfif"></p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><a name=#Bikes><h4>Information about bikes</h4>A bicycle, also called a cycle or bike, is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other. 
+A bicycle rider is called a cyclist, or bicyclist. ... These have allowed for a proliferation of specialized designs for many types of cycling.
+</a>
+
+<h6>Bike Image</h6><img src="bike.jfif"></p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><a name=#Books><h4>Information about books</h4>Encyclopedias often have separate articles written by different people, and published as separate volumes. 
+Each volume is a book. ... Some books are written just for children, or for entertainment, while other books are for studying something in school such as math or history. Many books have photographs or drawings.
+
+<!--when we add any image within this a tag then it won't visible...so aftr closing or bfr opening this tag we must add image.-->
+
+<h6>Book Image</h6></a><img src="book.jpg"></p>
+<!--The gaps in between refers nothing other than to differentiate the commands.-->
+<h2>After resizing the image</h2>
+<img src="book.jpg" width="200" height="200">
+
+<h2>Forms</h2>
+
+<form action="" method="">
+
+<label for="firstname">First Name:</label>
+<input type="text"  id="firstname" name=""><br><br>
+
+<!-- Even the size of the box can be altered-->
+
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname"  name="" ><br><br>
+
+<!--If we are giving the label that denote the boxes outside the label tag ,
+then the box won't be highlighted .-->
+Middle Name:<label for="middlename"></label>
+<input type="text" id="middlename"  name="" size="40"><br><br>
+
+<h3>Multiline Text Box</h3>
+Comments:<br>
+<textarea rows=5 columns=20></textarea><br><br>
+
+<!--here i've used label tag whereas in above multiline box i didn't ..It wrks as i've explained above
+i.e., the box didn't get highlighted if i don't use label tag-->
+<label for="comments">Comments:</label><br>
+<textarea rows=5 id="comments" columns=20></textarea><br><br>
+<!--to create buttons-->
+<input type="submit" value="Submit"><br><br>
+
+<input type="submit" value="Finish"><br><br>
+
+<!--Only for the type submit, the button is created.Other than submit a text box is created with the value that we give.-->
+<input type="yes" value="Yes">
+
+<h2>Radio Buttons</h2>
+YES:
+<input type="radio" name="yesorno" valu=""><br>
+&nbsp&nbspNO:
+<input type="radio" name="yesorno" >
+
+<!--We give same name here in order to select only one option.If we give different name then everything can be 
+selected.-->
+
+YES:
+<input type="radio" name="yesorno" valu=""><br>
+&nbsp&nbspNO:
+<input type="radio" name="Yesorno" >
+</form>
+<body>
 <html>

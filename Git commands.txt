@@ -1,0 +1,10 @@
+1. Open web folder in your desktop
+2. Right click anywhere and select option git bash here"
+3. Type the following commands:
+	git init
+	git remote add origin "https://github.com/jeevetha/web-design.git"
+	git pull origin master
+	git add -A
+	git commit -m "ANY MESSAGE FOR YOUR REFERENCE"
+	git push origin master
+4. Do these steps regularly.
